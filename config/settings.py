@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-import accounts.models
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'wp4p%dx&7pz568e(a1d^45c-34rg$g53z2o$9_6w6#pe8l8g^_'
+SECRET_KEY = 'wp4p%dx&7pz568e(a1d^45c-34rg$g53z2o$9_6w6#pe8l8g^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
